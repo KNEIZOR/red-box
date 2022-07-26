@@ -7,10 +7,12 @@
     color: rgb(254, 254, 254);
 }
 
+html{
+    overflow-x: hidden;
+}
 
 body {
     background-color: rgb(17, 17, 17);
-    overflow-x: hidden;
 }
 
 .modal-close {

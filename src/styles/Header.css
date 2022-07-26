@@ -1,7 +1,6 @@
 header {
     width: 100%;
     height: auto;
-    font-size: 20pt;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -14,6 +13,7 @@ header {
 
 .logo-title {
     margin-left: 10px;
+    font-size: 3vw;
 }
 
 #logo {
@@ -70,6 +70,10 @@ nav {
     z-index: 1001;
 }
 
+.link{
+    font-size: 2vw;
+}
+
 .links:hover{
     transform: translate(5px, 0);
     -webkit-transform: translate(5px, 0);
@@ -87,6 +91,18 @@ nav {
     .header__wrapper{
         margin: 0 50px 0 20px;
         padding-top: 30px;
+    }
+
+    .logo-title{
+        font-size: 6vw;
+    }
+
+    .link{
+        font-size: 5vw;
+    }
+
+    .title{
+        margin-top: 200px;
     }
 
 }

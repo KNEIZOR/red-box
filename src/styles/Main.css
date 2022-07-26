@@ -80,7 +80,8 @@ main {
 .clients-list {
     font-size: 24px;
     display: flex;
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     height: auto;
     justify-content: space-around;
 }
@@ -158,6 +159,11 @@ hr.in-view {
 
     .client-title {
         margin: 0 50px 30px 55px;
+        font-size: 5vw;
+    }
+
+    .list-one, .list-two{
+        font-size: 5vw;
     }
 
     .clients-menu {
@@ -167,7 +173,7 @@ hr.in-view {
     .clients-list {
         display: block;
         margin: 0 55px;
-        width: 500px;
+        max-width: 500px;
     }
 }
 
