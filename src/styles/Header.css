@@ -101,8 +101,9 @@ nav {
         font-size: 5vw;
     }
 
-    .title{
+    .header__wrapper .title{
         margin-top: 200px;
+        padding: 0;
     }
 
 }
